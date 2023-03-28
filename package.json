@@ -36,7 +36,7 @@
   },
   "version": "0.0.0",
   "lint-staged": {
-    ".{js,jsx,ts,tsx}": [
+    "*.{js,jsx,tx,tsx}": [
       "eslint --fix",
       "prettier --write",
       "git add"
