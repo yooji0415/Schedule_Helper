@@ -1,7 +1,7 @@
 import 'twin.macro'
 
-const MenuIcon = ({ onClick }: { onClick: () => void }) => (
-  <button tw="sm:w-8 sm:h-8 w-6 h-6 cursor-pointer" onClick={onClick}>
+const HomeIcon = () => (
+  <div tw="h-7 w-7">
     <svg
       fill="#000000"
       viewBox="0 0 1920 1920"
@@ -15,12 +15,12 @@ const MenuIcon = ({ onClick }: { onClick: () => void }) => (
       ></g>
       <g id="SVGRepo_iconCarrier">
         <path
-          d="M1920 1411.412v225.882H0v-225.882h1920Zm0-564.706v225.882H0V846.706h1920ZM1920 282v225.882H0V282h1920Z"
+          d="M960.16 1083.131c-92.279 0-167.374-75.095-167.374-167.373 0-92.28 75.095-167.374 167.374-167.374s167.374 75.095 167.374 167.374c0 92.278-75.095 167.373-167.374 167.373ZM960.16 0 28 932.049l79 79 127.874-127.985V1920h557.912v-557.912h334.748V1920h557.912V883.064l127.874 127.985 79-79L960.16 0Z"
           fillRule="evenodd"
         ></path>
       </g>
     </svg>
-  </button>
+  </div>
 )
 
-export default MenuIcon
+export default HomeIcon
